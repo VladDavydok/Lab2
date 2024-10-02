@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color: #fff;
+}
+
+table {
+  margin-bottom: 20px;
+}
+
+.row1 {
+  background-color: #248f8f;
+  color: #fff;
+}
+
+.row2 {
+  background-color: #f5f524;
+  color: #000;
+}
+
+.row1:hover {
+  background-color: #fff;
+  color: #248f8f;
+}
+
+.row2:hover {
+  background-color: #000;
+  color: #f5f524;
+}
+
+.figures {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.position-target,
+.transform-target {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.target.position {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.circle {
+  position: absolute;
+  border: 4px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.large {
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+.medium {
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  left: 20px;
+}
+
+.small {
+  width: 20px;
+  height: 20px;
+  top: 40px;
+  left: 40px;
+  background-color: black;
+}
+
+.line {
+  position: absolute;
+  background-color: black;
+}
+
+.horizontal {
+  width: 140px;
+  height: 4px;
+  top: 50px;
+  left: -20px;
+}
+
+.vertical {
+  width: 4px;
+  height: 140px;
+  top: -15px;
+  left: 50px;
+}
